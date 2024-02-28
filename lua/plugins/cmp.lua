@@ -83,10 +83,10 @@ return {
           compare.order,
         },
       },
-      completion = {
-        -- 自动选中第一条
-        completeopt = "menu,menuone,preview,noinsert",
-      },
+      -- completion = {
+      --   -- 自动选中第一条
+      --   completeopt = "menu,menuone,preview,noinsert",
+      -- },
       mapping = {
         ["<CR>"] = cmp.config.disable,
         -- ctrl + e关闭补全窗口
