@@ -22,6 +22,19 @@ return {
     }
     
     -- commands
+
+    tmux.run_wk {
+      cmd = "pnpm dev",
+      name = "pnpm dev",
+      session_name = "pnpm dev window",
+    }
+
+    tmux.run_wk {
+      cmd = "pnpm run build",
+      name = "pnpm run build",
+      session_name = "pnpm run build window",
+    }
+
     tmux.run_wk {
       cmd = "yarn test",
       name = "Vitest test",
